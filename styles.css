@@ -1,10 +1,11 @@
 :root {
-    --branco-texto: #EAFDFC;
-    --bege-texto: #F2E7D5;
+    --branco-texto: #ffffff;
+    --cinza-texto: #dcdcdc;
     --botao-vermelho: #EC2F46;
     --cor-de-fundo: #000000;
     --font-principal: 'Inter';
     --font-montserrat: 'Montserrat';
+    --botao-bege: #F2E7D5;
 
 }
 
@@ -54,7 +55,7 @@ body {
 
 .container__botao:hover {
     color: var(--botao-vermelho);
-    background-color: var(--bege-texto);
+    background-color: var(--botao-bege);
 }
 
 .botao__secundario {
@@ -66,7 +67,7 @@ body {
 
 .container__aviso {
     font-size: 12px;
-    color: var(--bege-texto);
+    color: var(--cinza-texto);
 }
 
 .container__titulo {
@@ -96,7 +97,7 @@ body {
 }
 
 .descricao__texto {
-    color: var(--bege-texto);
+    color: var(--cinza-texto);
 }
 
 .secundario__botao {
@@ -155,7 +156,7 @@ body {
 }
 
 .rodape__texto2 {
-    color: var(--bege-texto);
+    color: var(--cinza-texto);
 }
 
 .lista__link a:hover {
